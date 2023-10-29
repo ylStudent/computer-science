@@ -1,0 +1,1 @@
+select type, count(*) as title_count  from titles group by type order by title_count desc;
