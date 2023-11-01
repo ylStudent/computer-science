@@ -1,0 +1,5 @@
+if(EXISTS "D:/statistic/computer-science/build/test/tuple_test[1]_tests.cmake")
+  include("D:/statistic/computer-science/build/test/tuple_test[1]_tests.cmake")
+else()
+  add_test(tuple_test_NOT_BUILT tuple_test_NOT_BUILT)
+endif()

@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc ..\..\lib\libbackward.a CMakeFiles/backward.dir/backward.cpp.obj
+D:\mingw64\bin\ranlib.exe ..\..\lib\libbackward.a

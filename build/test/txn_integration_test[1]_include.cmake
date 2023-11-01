@@ -1,0 +1,5 @@
+if(EXISTS "D:/statistic/computer-science/build/test/txn_integration_test[1]_tests.cmake")
+  include("D:/statistic/computer-science/build/test/txn_integration_test[1]_tests.cmake")
+else()
+  add_test(txn_integration_test_NOT_BUILT txn_integration_test_NOT_BUILT)
+endif()

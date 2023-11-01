@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc ..\..\..\lib\libfort.a CMakeFiles/fort.dir/fort.c.obj
+D:\mingw64\bin\ranlib.exe ..\..\..\lib\libfort.a

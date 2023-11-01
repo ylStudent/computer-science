@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\htable-bench.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\htable-bench.dir/objects.a @CMakeFiles\htable-bench.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wall -Wextra -Werror -Wno-unused-parameter -Wno-attributes -O0 -ggdb -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wl,--whole-archive CMakeFiles\htable-bench.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\bustub-htable-bench.exe -Wl,--out-implib,..\..\lib\libbustub-htable-bench.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\htable-bench.dir\linkLibs.rsp

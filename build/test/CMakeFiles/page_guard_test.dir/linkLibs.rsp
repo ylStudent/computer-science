@@ -1,0 +1,1 @@
+ -ldbghelp -lpsapi -lmsvcr90d ../lib/libbustub.a ../lib/libgtest.a ../lib/libgmock_main.a ../lib/libbustub_murmur3.a ../lib/libduckdb_pg_query.a ../lib/libfmtd.a ../lib/libfort.a ../lib/libgmock.a ../lib/libgtest.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

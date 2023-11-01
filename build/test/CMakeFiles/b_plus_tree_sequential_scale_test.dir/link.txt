@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\b_plus_tree_sequential_scale_test.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\b_plus_tree_sequential_scale_test.dir/objects.a @CMakeFiles\b_plus_tree_sequential_scale_test.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wall -Wextra -Werror -Wno-unused-parameter -Wno-attributes -O0 -ggdb -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wl,--whole-archive CMakeFiles\b_plus_tree_sequential_scale_test.dir/objects.a -Wl,--no-whole-archive -o b_plus_tree_sequential_scale_test.exe -Wl,--out-implib,..\lib\libb_plus_tree_sequential_scale_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\b_plus_tree_sequential_scale_test.dir\linkLibs.rsp

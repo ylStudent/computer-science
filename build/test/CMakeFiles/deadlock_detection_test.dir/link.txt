@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\deadlock_detection_test.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\deadlock_detection_test.dir/objects.a @CMakeFiles\deadlock_detection_test.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wall -Wextra -Werror -Wno-unused-parameter -Wno-attributes -O0 -ggdb -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wl,--whole-archive CMakeFiles\deadlock_detection_test.dir/objects.a -Wl,--no-whole-archive -o deadlock_detection_test.exe -Wl,--out-implib,..\lib\libdeadlock_detection_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\deadlock_detection_test.dir\linkLibs.rsp
